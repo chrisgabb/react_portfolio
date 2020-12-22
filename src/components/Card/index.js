@@ -1,22 +1,25 @@
 import React from 'react';
 import {
   Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button, Col
+  CardTitle, CardSubtitle, Button, Col, Container, CarouselControl
 } from 'reactstrap';
+
 
 const CustomCard = (props) => {
   return (
     <>
-      <Col>
+    <Container >
+      <Col className="col-md-12">
         <Card>
-          <CardImg top width="100%" src={props.info.image} alt={props.info.altImage} />
+          <CardImg src={props.image} alt={props.altImage} />
           <CardBody>
-            <CardTitle tag="h5">{props.info.title}</CardTitle>
-            <CardText>{props.info.bodyText}</CardText>
-            <a href={props.info.buttonLink} class="btn btn-dark">Check It Out</a>
+            <CardTitle tag="h5">{props.title}</CardTitle>
+            <CardText>{props.bodyText}</CardText>
+            <a href={props.buttonLink} class="btn btn-dark">Deployed</a>
           </CardBody>
         </Card>
       </Col>
+      </Container>
     </>
   );
 };

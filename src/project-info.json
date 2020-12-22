@@ -1,0 +1,45 @@
+[
+
+  {
+    "title": "README.md Generator",
+    "bodyText": "Generate a README.md for your new project using this interactive command line application",
+    "image": "/images/cli_app.png",
+    "altImage": "Team meeting (orange theme)",
+    "buttonLink": "https://github.com/chrisgabb/readme_generator"
+  },
+  {
+    "title": "Avail- A Peer Study Scheduler",
+    "bodyText": "Set up study sessions and request help from classmates using this peer study scheduler.",
+    "image": "/images/project-2.png",
+    "altImage": "Command Line question and answers",
+    "buttonLink": "http://frightening-scarecrow-12242.herokuapp.com/"
+  },
+  {
+    "title": "Weather App",
+    "bodyText": "Search the waether and climate of any city based on city name or zip code.",
+    "image": "/images/weather-app.png",
+    "altImage": "Nutritional data input screen",
+    "buttonLink": "https://chrisgabb.github.io/recipe_app/"
+  },
+  {
+    "title": "Code Quiz",
+    "bodyText": "Take a Short quiz on some CS fundamentals. Uses a fair bit of CSS to move the user through each question.",
+    "image": "/images/code-quiz.png",
+    "altImage": "M",
+    "buttonLink": "https://github.com/chrisgabb/readme_generator"
+  },
+  {
+    "title": "Nutitional Calculator",
+    "bodyText": "Find recipes that fit nutitional constraints. Search restuarants on cheat days. Track nutritional progress for the day on a progress bar.",
+    "image": "/images/project-1.png",
+    "altImage": "Nutritional data input screen",
+    "buttonLink": "https://chrisgabb.github.io/recipe_app/"
+  },
+  {
+    "title": "Bazaar 6",
+    "bodyText": "An eCommerce App developed using a MERN stack.",
+    "image": "/images/project-2.png",
+    "altImage": "Temporary",
+    "buttonLink": ""
+  }
+]

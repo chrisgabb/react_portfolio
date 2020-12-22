@@ -50,3 +50,14 @@ code {
 .jumboButton {
   font-family: 'Ubuntu Mono', monospace;
 }
+
+.footer {
+  position: fixed;
+  right: 1%;
+  bottom: 1%;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 17px;
+  margin-top: 5%;
+
+}

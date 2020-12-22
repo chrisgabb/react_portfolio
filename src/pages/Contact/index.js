@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import CustomNavBar from '../../components/NavBar'
-import CustomJumbotron from '../../components/Jumbotron'
-import CustomCarousel from '../../components/Carousel'
+import CustomNavBar from '../../components/NavBar';
+import Footer from '../../components/Footer';
+import CustomJumbotron from '../../components/Jumbotron';
+import CustomCarousel from '../../components/Carousel';
 import {
     Container, Row, Col, FormGroup, Form, Input, Label, Button
   } from 'reactstrap';
@@ -33,6 +34,7 @@ const Contact = (props) => {
     </Col>
     </Row>
     </Container>
+    <Footer />
     </>)
 }
 
